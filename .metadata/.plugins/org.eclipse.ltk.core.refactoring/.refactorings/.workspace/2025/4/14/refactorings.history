@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;mainBlockDesign_wrapper&apos;" deleteContents="false" description="Delete resource &apos;mainBlockDesign_wrapper&apos;" element1="/mainBlockDesign_wrapper" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1743594618930"/>
-</session>
