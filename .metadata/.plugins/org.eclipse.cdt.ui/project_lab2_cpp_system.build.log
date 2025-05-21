@@ -1,0 +1,10 @@
+14:10:01 **** Incremental Build of configuration Debug for project project_lab2_cpp_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/lsriw/Documents/RN/RN_proj/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/mainBlockDesign_wrapper.xpfm -domains standalone_domain -bifpath /home/lsriw/Documents/RN/RN_proj/project_lab2_cpp_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/lsriw/Documents/RN/RN_proj/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/mainBlockDesign_wrapper.xpfm --sys_config mainBlockDesign_wrapper --bif /home/lsriw/Documents/RN/RN_proj/project_lab2_cpp_system/Debug/system.bif --bitstream /home/lsriw/Documents/RN/RN_proj/project_lab2_cpp/_ide/bitstream/mainBlockDesign_wrapper.bit --elf /home/lsriw/Documents/RN/RN_proj/project_lab2_cpp/Debug/project_lab2_cpp.elf,psu_cortexa53_0
+creating BOOT.BIN using /home/lsriw/Documents/RN/RN_proj/project_lab2_cpp/_ide/bitstream/mainBlockDesign_wrapper.bit
+Running /tools/Xilinx/Vitis/2022.2/bin/bootgen -arch zynqmp -image /home/lsriw/Documents/RN/RN_proj/project_lab2_cpp_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:10:08 Build Finished (took 6s.438ms)
+

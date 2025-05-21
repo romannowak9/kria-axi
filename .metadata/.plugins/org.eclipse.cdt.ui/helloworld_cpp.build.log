@@ -1,0 +1,21 @@
+14:49:45 **** Incremental Build of configuration Debug for project helloworld_cpp ****
+make all 
+Building file: ../src/main.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I/home/lsriw/Documents/411270/mainBlockDesign_wrapper_1/export/mainBlockDesign_wrapper_1/sw/mainBlockDesign_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: helloworld_cpp.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/lsriw/Documents/411270/mainBlockDesign_wrapper_1/export/mainBlockDesign_wrapper_1/sw/mainBlockDesign_wrapper_1/standalone_psu_cortexa53_0/bsplib/lib -o "helloworld_cpp.elf" ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: helloworld_cpp.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size helloworld_cpp.elf  |tee "helloworld_cpp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 988677	   5016	  31411	1025104	  fa450	helloworld_cpp.elf
+Finished building: helloworld_cpp.elf.size
+ 
+
+14:49:46 Build Finished (took 743ms)
+

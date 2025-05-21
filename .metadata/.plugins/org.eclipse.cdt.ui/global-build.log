@@ -1,0 +1,18 @@
+14:16:47 **** Incremental Build of configuration Debug for project project_lab2_cpp ****
+make all 
+Building file: ../src/main.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I/home/lsriw/Documents/RN/RN_proj/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/sw/mainBlockDesign_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: project_lab2_cpp.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/lsriw/Documents/RN/RN_proj/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/sw/mainBlockDesign_wrapper/standalone_domain/bsplib/lib -o "project_lab2_cpp.elf" ./src/interrupts.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: project_lab2_cpp.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size project_lab2_cpp.elf  |tee "project_lab2_cpp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 996237	   8176	  31371	1035784	  fce08	project_lab2_cpp.elf
+Finished building: project_lab2_cpp.elf.size
+ 

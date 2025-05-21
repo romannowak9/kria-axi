@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/mainBlockDesign/ip/mainBlockDesign_rst_ps8_0_99M_0/sim/mainBlockDesign_rst_ps8_0_99M_0.vhd" \
+
+nosort

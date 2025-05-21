@@ -1,0 +1,21 @@
+15:00:43 **** Incremental Build of configuration Debug for project Lab_2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I/home/lsriw/Documents/411270/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/sw/mainBlockDesign_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Lab_2.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/lsriw/Documents/411270/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/sw/mainBlockDesign_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "Lab_2.elf" ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 989093	   5016	  31427	1025536	  fa600	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+
+15:00:44 Build Finished (took 792ms)
+

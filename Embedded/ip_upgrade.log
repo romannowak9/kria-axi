@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Wed Mar 12 14:30:56 2025
+| Host         : lsriw-giewont running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mainBlockDesign_sum_register_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mainBlockDesign_sum_register_0_0 (user.org:user:sum_register:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mainBlockDesign_sum_register_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'integer0'
+
+-Upgrade has added port 'integer1'
+
+-Upgrade has added port 'sum'
+
+

@@ -1,0 +1,10 @@
+14:40:30 **** Incremental Build of configuration Debug for project hello_world_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/lsriw/Documents/411270/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/mainBlockDesign_wrapper.xpfm -domains standalone_psu_cortexa53_0 -bifpath /home/lsriw/Documents/411270/hello_world_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/lsriw/Documents/411270/mainBlockDesign_wrapper/export/mainBlockDesign_wrapper/mainBlockDesign_wrapper.xpfm --sys_config mainBlockDesign_wrapper --bif /home/lsriw/Documents/411270/hello_world_system/Debug/system.bif --bitstream /home/lsriw/Documents/411270/hello_world/_ide/bitstream/mainBlockDesign_wrapper.bit --elf /home/lsriw/Documents/411270/hello_world/Debug/hello_world.elf,psu_cortexa53_0
+creating BOOT.BIN using /home/lsriw/Documents/411270/hello_world/_ide/bitstream/mainBlockDesign_wrapper.bit
+Running /tools/Xilinx/Vitis/2022.2/bin/bootgen -arch zynqmp -image /home/lsriw/Documents/411270/hello_world_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:40:36 Build Finished (took 6s.437ms)
+
